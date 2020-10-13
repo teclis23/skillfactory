@@ -194,7 +194,7 @@ padding-left: 42px;
 
 .screen_2 {
     background: #131313;
-    padding-bottom: 470px;
+    padding-bottom: 400px;
 }
 
 .screen_2_container {
@@ -204,6 +204,7 @@ padding-left: 42px;
 
 .screen_2_details {
     flex: 1;
+    padding-left: 42px;
 }
 
 
@@ -226,7 +227,6 @@ padding-left: 42px;
     line-height: 25px;
 
 }
-
 
 .screen_2_details h2 {
     margin-top: 176px;
@@ -314,7 +314,110 @@ padding-left: 42px;
     margin-left: 56px;
 }
 
-
 .screen_2_slider img {
     width: 88%;
+}
+
+.screen_3_container {
+    text-align: center;
+    margin-top: -345px;
+}
+
+.screen_3_container h3 {
+    color: #FFFFFF;
+}
+
+.camera_icon {
+    margin: 0 auto;
+    width: 40px;
+    margin-top: -9px;
+    position: relative;
+}
+
+.camera_icon:before {
+    content: ' ';
+    width: 32px;
+    border-bottom: 2px solid #E3B873;
+    position: absolute;
+    left: -37px;
+    top: 14px;
+}
+
+.camera_icon:after {
+    content: ' ';
+    width: 32px;
+    border-bottom: 2px solid #E3B873;
+    position: absolute;
+    left: 45px;
+    top: 14px;
+}
+
+.video-player {
+    max-width: 817px;
+    margin: 0 auto;
+    height: 435px;
+    overflow: hidden;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.play-button {
+    position: absolute;
+    left: calc(50% - 75px);
+}
+
+.screen_3_description {
+font-size: 18px;
+line-height: 37px;
+color: #363636;
+margin-top: 93px;
+position: relative;
+}
+
+.screen_3_description:before {
+    content: ' ';
+    width: 55px;
+    border-bottom: 2px solid #E3B873;
+    position: absolute;
+    left: calc(50% - 29px);
+    top: -31px;
+}
+
+
+.screen-3-form-row {
+    display: flex;
+    flex-direction: row;
+    max-width: 775px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 81px;
+}
+
+.screen-3-form-row button  {
+    width: 210px;
+}
+
+.input-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-text label {
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.input-text input {
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    padding-bottom: 7px;
+}
+
+.input-text input:focus {
+    outline: none;
 }
