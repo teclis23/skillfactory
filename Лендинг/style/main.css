@@ -63,7 +63,7 @@ img  {
     max-width: 100%;
 }
 
-h1, h2, h3, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Yeseva One', cursive;
     font-style: normal;
     font-weight: normal;
@@ -85,6 +85,11 @@ h2 {
 h3 {
     font-size: 20px;
     line-height: 28px;
+}
+
+.h4 {
+    font-size: 18px;
+    line-height: 25px;
 }
 
 .text_accent {
@@ -474,8 +479,6 @@ position: relative;
 .repair_types_item {
     flex: 1;
     max-width: 392px;
-    flex: 1;
-    max-width: 392px;
     height: 421px;
     margin-top: 33px;
     background-position: center;
@@ -492,4 +495,42 @@ position: relative;
 
 .designer_repair{
     background-image: url(../image/designer_repair.png);
+}
+
+.screen_4_container .list {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    max-width: calc(330px - 68px);
+    margin: 0 auto;
+    margin-top: 294px;
+    padding: 0 34px;
+}
+
+.screen_4_container .list h4 {
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    margin-bottom: -6px;
+}
+
+.repair_list {
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+    padding-left: 17px;
+}
+
+.repair_cost_button {
+    display: flex;
+    max-width: 230px;
+    padding: 14px 18px;
+    margin-left: -34px;
+    margin-top: 3px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
 }
