@@ -31,6 +31,42 @@ html, body {
     font-weight: normal;
 }
 
+.check_box_label {
+    font-size: 14px;
+    padding-left: 0.5em;
+}
+
+.check_input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.check_box {
+    width: 1.3em;
+    height: 1.3em;
+    position: absolute;
+    background-color: #fff;
+    margin-top: 0.25em;
+    margin-left: -2em;
+    box-shadow: 0 0 0 0.1em #E3B873;
+}
+
+.check_input:checked + .check_box {
+    background-color: #E3B873;
+}
+
+.check_input:checked + .check_box:after {
+    content: ' ';
+    display: inline-block;
+    width: 1.3em;
+    height: 1.3em;
+    background-image: url(../image/icon/check.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1em;
+}
+
 .button {
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -579,10 +615,10 @@ position: relative;
     align-items: center;
     color: #fff;
     font-family: Yeseva One;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 .built_image {
@@ -660,7 +696,35 @@ line-height: 25px;
     right: 50px;
     padding: 15px 36px;
     font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 21px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.moneybox {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    bottom: -110px;
+    left: 32px;
+}
+
+.moneybox_circle {
+    background: #E3B873;
+    box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+    width: 72px;
+    height: 72px;
+    border-radius: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moneybox_offer {
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+    padding-left: 26px;
 }
