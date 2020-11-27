@@ -414,11 +414,11 @@ padding-left: 42px;
 }
 
 .screen_3_description {
-font-size: 18px;
-line-height: 37px;
-color: #363636;
-margin-top: 93px;
-position: relative;
+    font-size: 18px;
+    line-height: 37px;
+    color: #363636;
+    margin-top: 93px;
+    position: relative;
 }
 
 .screen_3_description:before {
@@ -727,4 +727,47 @@ position: relative;
     color: #E3B873;
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
     padding-left: 26px;
+}
+
+.screen_6_container {
+    text-align: center;
+    margin-top: 147px;
+    margin-left: 222px;
+}
+
+.screen_6_container h3 {
+    color: #181818;;
+}
+
+.clients_icon {
+    margin: 0 auto;
+    width: 40px;
+    margin-top: -9px;
+    position: relative;
+}
+
+.clients_icon:before {
+    content: ' ';
+    width: 32px;
+    border-bottom: 2px solid #E3B873;
+    position: absolute;
+    left: -37px;
+    top: 14px;
+}
+
+.clients_icon:after {
+    content: ' ';
+    width: 32px;
+    border-bottom: 2px solid #E3B873;
+    position: absolute;
+    left: 45px;
+    top: 14px;
+}
+
+.screen_6_description {
+    font-size: 18px;
+    line-height: 29px;
+    color: #363636;
+    position: relative;
+    margin-top: 16px;
 }
