@@ -787,6 +787,7 @@ padding-left: 42px;
 .customers_name {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .customers_icon_wrapper {
@@ -802,7 +803,17 @@ padding-left: 42px;
     width: 100%;
 }
 
+.customers_name h4 {
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    text-transform: capitalize;
+}
+
 
 .customer_review {
-
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+    text-align: left;
 }
