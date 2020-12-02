@@ -140,7 +140,7 @@ header {
 }
 
 .container {
-    max-width: 1260px;
+    max-width: 1236px;
     margin: 0 auto;
 }
 
@@ -510,7 +510,7 @@ padding-left: 42px;
 .repair_types {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-bottom: 310px;
 }
 
@@ -583,7 +583,7 @@ padding-left: 42px;
 .consultation_list {
     padding-top: 56px;
     height: calc(100% - 63px);
-    padding-left: 150px;
+    padding-left: 135px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -636,7 +636,6 @@ padding-left: 42px;
     width: 408px;
     height: 454px;
     margin-top: 106px;
-    margin-right: 10px;
     padding: 28px 49px;
     position: relative;
 }
@@ -774,16 +773,17 @@ padding-left: 42px;
 .customers {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 40px;
-    margin-left: -11px;
 }
 
 .customers_wrapper {
-    background: #FFFFFF;
+     background: #FFFFFF;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
-    max-width: 376px;
     height: 428px;
+    padding: 20px; 
+    max-width: 376px;
+
 }
 
 
@@ -791,7 +791,6 @@ padding-left: 42px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 16px;
 }
 
 .customers_icon_wrapper {
