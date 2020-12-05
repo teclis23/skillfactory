@@ -783,6 +783,7 @@ padding-left: 42px;
     height: 428px;
     padding: 20px; 
     max-width: 376px;
+    position: relative;
 
 }
 
@@ -823,5 +824,45 @@ padding-left: 42px;
     color: #959595;
     max-width: 324px;
     height: 216px;
-    margin-left: 13px;
+}
+
+.parameters {
+    display: flex;
+    flex-direction: row;
+    background-color: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+    max-width: 294px;
+    height: 54px;
+    position: absolute;
+    left: 0;
+    bottom: -27px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.area_icon {
+
+}
+
+.timing_icon{
+
+}
+
+.area_parameters {
+    width: 135px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.timing_parameters {
+    width: 157px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
 }
