@@ -829,9 +829,7 @@ padding-left: 42px;
 .parameters {
     display: flex;
     flex-direction: row;
-    background-color: #E3B873;
     box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
-    max-width: 294px;
     height: 54px;
     position: absolute;
     left: 0;
@@ -854,15 +852,30 @@ padding-left: 42px;
 }
 
 .area_parameters {
-    width: 135px;
+    background-color: #E3B873;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
+.area_parameters span {
+    padding-left: 14px;
+    }
+
 .timing_parameters {
-    width: 157px;
+    background-color: #E3B873;
     display: flex;
     flex-direction: row;
-    align-items: center;  
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-left: 2px; 
 }
+
+.timing_parameters span {
+    padding-left: 14px;
+    }
