@@ -922,6 +922,10 @@ padding-left: 42px;
         margin-top: 50px;
     }
 
+    .questions_form {
+
+    }
+
     .screen_7_contacts_wrapper {
         display: flex;
         flex-direction: row;
