@@ -925,13 +925,13 @@ padding-left: 42px;
 
     .questions_form {
         position: absolute;
-        background: #C4C4C4;
+        background: #181818;;
         width: 883px;
         height: 445px;
         right: 0;
         left: 0;
         margin: auto;
-        bottom: 758px;
+        top: -223px;
     }
 
     .questions_form h5 {
