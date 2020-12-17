@@ -132,7 +132,7 @@ h3 {
     color: #E3B873;
 }
 
-header {
+header, footer {
     background-color: #131313;
     text-transform: uppercase;
     font-size: 11px;
@@ -913,6 +913,7 @@ padding-left: 42px;
     .screen_7_container {
         padding-top: 223px;
         padding-bottom: 66px;
+        position: relative;
     }
 
     .screen_7_container h3 {
@@ -923,7 +924,32 @@ padding-left: 42px;
     }
 
     .questions_form {
+        position: absolute;
+        background: #C4C4C4;
+        width: 883px;
+        height: 445px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        bottom: 758px;
+    }
 
+    .questions_form h5 {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .screen_7_button {
+        bottom: 27px;
+        right: 50px;
+        padding: 15px 36px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 21px;
     }
 
     .screen_7_contacts_wrapper {
