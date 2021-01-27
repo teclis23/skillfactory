@@ -35,6 +35,10 @@ html, body {
     width: 100%;
 }
 
+.hide-on-desktop {
+    display: none;
+}
+
 
 .check_box_label {
     font-size: 14px;
@@ -545,6 +549,7 @@ padding-left: 42px;
 }
 
 .screen_4_container .list {
+    position: relative;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -552,6 +557,8 @@ padding-left: 42px;
     margin: 0 auto;
     margin-top: 294px;
     padding: 0 34px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+
 }
 
 .screen_4_container .list h4 {
@@ -574,12 +581,14 @@ padding-left: 42px;
     max-width: 230px;
     padding: 14px 18px;
     margin-left: -34px;
-    margin-top: 3px;
     font-family: Yeseva One;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
+    position: absolute;
+    bottom: -20px;
+    
 }
 
 .screen_5_container {
@@ -1092,6 +1101,14 @@ padding-left: 42px;
         text-align: center;
     }
 
+    .hide-on-desktop {
+        display: block;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
     /*header*/
     .header-navigation, header .button {
         display: none;            
@@ -1181,8 +1198,172 @@ padding-left: 42px;
         text-align: unset;
     }
 
+    .screen_2_details_description {
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+    .condition_items_description {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    /* Screen 3 */
+    .video-player {
+        margin: 0 auto;
+    }
+
+    .screen_3 {
+        background: #131313;
+    }
+
+    .screen_3_container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .screen_3_description {
+        font-size: 11px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+  
+
+    .screen-3-form-row {
+        flex-direction: column;
+        align-items: stretch;
+        position: relative;
+        padding-bottom: 60px;
+    }
+
+    .screen-3-form-row .button {
+        height: 50px;
+        bottom: -25px;
+        width: 100%;
+    }
+
+ 
+    .screen-3-form-row .input-text input {
+        width: 100%;
+        border-bottom: 1px solid #fff;
+    }
+
+    .screen-3-form-row .input-text input::placeholder {
+        color: #FFFFFF;
+      }
+
+    .input-text label {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .screen-3-form-row .check_box_label {
+        color: #FFFFFF;
+    }
+
+    .screen-3-form-row button {
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -21px;
+    }
+
+    /* Screen 4 */
+    .repair_types {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: unset;
+    }
+
+    .repair_types_item {
+        position: relative;
+        flex: auto;
+        width: 100%;
+        max-width: 100%;
+        height: 365px;
+        margin-bottom: 180px;
+    }
+
+    .screen_4_container .list {
+        position: absolute;
+        top: 223px;
+        left: -1px;
+        margin: 0;
+        padding-bottom: 17px;
+    }
+
+    .screen_4_container .list .button {
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .screen_4_container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
     /* Screen 5 */
     .screen_5_container {
+        display: none;
+    }
+
+    /* Screen 6 */
+    .screen_6 {
+        display: none;
+    }
+
+    /* Screen 7 */
+    .screen_7_container {
+        padding-top: unset;
+        padding-left: 18px;
+        padding-right: 18px;
+        background: #181818;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .screen_7_container .questions_form {
+        top: 0px;
+        height: auto;
+        padding-bottom: 18px;
+    }
+
+    .name_phone_input_wrapper {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .questions_form {
+        position: relative;
+    }
+
+    .questions_form .screen_7_phone {
+        margin-top: 41px;
+        margin-left: 0;
+    }
+
+    .screen_7::before {
+        display: none;
+    }
+ 
+    .screen_7_button {
+        height: 50px;
+        width: 100%;
+    }
+
+    .screen_7_container h3 {
+        order: 3;
+    }
+
+    .screen_7_contacts_wrapper {
+        order: 4;
+    }
+
+    footer {
         display: none;
     }
 
